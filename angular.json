@@ -24,17 +24,32 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
-
+            "src/styles.css",
+            "./node_modules/bootstrap/dist/css/bootstrap.css",
+            "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+            "./src/app/css/bootstrap-colorpicker.css",
+            "./src/app/css/bootstrap-datepicker.css",
+            "./src/app/css/bootstrap-theme.css",
+            "./src/app/css/daterangepicker.css",
+            "./src/app/css/elegant-icons-style.css",
+            "./src/app/css/font-awesome.css",
+            "./src/app/css/font-awesome.min.css",
+            "./src/app/css/fullcalender.css",
+            "./src/app/css/jquery-jvectormap-1.2.2.css",
+            "./src/app/css/jquery-ui-1.10.4.min.css",
+            "./src/app/css/line-icons.css",
+            "./src/app/css/owl.carousel.css",
+            "./src/app/css/style-responsive.css",
+            "./src/app/css/style.css",
+            "./src/app/css/widgets.css",
+            "xcharts.min.css"
+            
             ],
             "scripts": [
             "./node_modules/jquery/dist/jquery.js",
             "./node_modules/jquery/dist/jquery.min.js",
             "./node_modules/bootstrap/dist/js/bootstrap.js",
             "./node_modules/bootstrap/dist/js/bootstrap.min.js"
-
             ]
           },
           "configurations": {
