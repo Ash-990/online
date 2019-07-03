@@ -8,7 +8,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 
-@import url(line-icons.css);
+/* @import url(line-icons.css); */
 
 
 
@@ -5536,7 +5536,7 @@ ul.ft-link li a i {
 
 .weather-bg-img {
 
-    background: url(../../assets/img/bg-1.jpg) no-repeat center center;
+    background: url('../../assets/img/bg-1.jpg') no-repeat center center;
 
     color: #fff;
 
@@ -8312,9 +8312,9 @@ table.sliders tr td {
 
     width: 80px;
 
-    -webkit-mask: url('../../assets/img/mail-avatar.jpg') 0 0 no-repeat;
+    /* -webkit-mask: url('../../assets/img/mail-avatar.jpg') 0 0 no-repeat;
 
-    mask: url('../img/mask.png') 0 0 no-repeat;
+    mask: url('../img/mask.png') 0 0 no-repeat; */
 
     -webkit-user-select: none;
 
@@ -8520,7 +8520,7 @@ table.sliders tr td {
 
 }
 
-.switch-square {
+/* .switch-square {
 
     border-radius: 6px;
 
@@ -8530,7 +8530,7 @@ table.sliders tr td {
 
     mask: url('../img/mask.png') 0 0 no-repeat;
 
-}
+} */
 
 .switch-square > div.switch-off label {
 
@@ -8850,9 +8850,9 @@ table.sliders tr td {
 
 
 
-.has-js .label_radio {
+/* .has-js .label_radio {
 
-    background: url(../img/checkbox/radio-off.png) no-repeat;
+    background-image: url('../img/checkbox/radio-off.png') no-repeat;
 
 }
 
@@ -8860,7 +8860,7 @@ table.sliders tr td {
 
 .has-js .label_check {
 
-    background: url(../img/checkbox/check-off.png) no-repeat;
+    background-image: url('../img/checkbox/check-off.png') no-repeat;
 
 }
 
@@ -8868,7 +8868,7 @@ table.sliders tr td {
 
 .has-js label.c_on {
 
-    background: url(../img/checkbox/check-on.png) no-repeat;
+    background-image: url('../img/checkbox/check-on.png') no-repeat;
 
 }
 
@@ -8876,9 +8876,9 @@ table.sliders tr td {
 
 .has-js label.r_on {
 
-    background: url(../img/checkbox/radio-on.png) no-repeat;
+    background-image: url('../img/checkbox/radio-on.png') no-repeat;
 
-}
+} */
 
 
 
@@ -9866,7 +9866,7 @@ span.customSelect.changed {
 
 .customSelectInner {
 
-    background:url(../img/customSelect-arrow.gif) no-repeat center right;
+    background:url('../img/customSelect-arrow.gif') no-repeat center right;
 
 }
 

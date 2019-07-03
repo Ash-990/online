@@ -24,32 +24,24 @@
               "src/assets"
             ],
             "styles": [
-            "src/styles.css",
-            "./node_modules/bootstrap/dist/css/bootstrap.css",
-            "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-            "./src/assets/css/bootstrap-colorpicker.css",
-            "./src/assets/css/bootstrap-datepicker.css",
-            "src/assets/css/bootstrap-theme.css",
-            "src/assets/css/daterangepicker.css",
-            "src/assets/css/elegant-icons-style.css",
-            "src/assets/css/font-awesome.css",
-            "src/assets/css/font-awesome.min.css",
-            // "src/assets/css/fullcalender.css",
-            "src/assets/css/jquery-jvectormap-1.2.2.css",
-            "src/assets/css/jquery-ui-1.10.4.min.css",
-            "src/assets/css/line-icons.css",
-            "src/assets/css/owl.carousel.css",
-            "src/assets/css/style-responsive.css",
-            "src/assets/css/style.css",
-            "src/assets/css/widgets.css",
-            // "./src/assets/css/xcharts.min.css"
-            
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./src/assets/css/bootstrap-colorpicker.css",
+              "./src/assets/css/bootstrap-datepicker.css",
+              "src/assets/css/bootstrap-theme.css",
+              "src/assets/css/daterangepicker.css",
+              "src/assets/css/elegant-icons-style.css",
+              "src/assets/css/owl.carousel.css",
+              "src/assets/css/style-responsive.css",
+              "src/assets/css/style.css",
+              "src/assets/css/widgets.css"
             ],
             "scripts": [
-            "./node_modules/jquery/dist/jquery.js",
-            "./node_modules/jquery/dist/jquery.min.js",
-            "./node_modules/bootstrap/dist/js/bootstrap.js",
-            "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -139,6 +131,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "online"
 }
