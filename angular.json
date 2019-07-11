@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "online": {
+    "ash1angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/online",
+            "outputPath": "dist/ash1angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,31 +24,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/assets/css/bootstrap-colorpicker.css",
-              "src/assets/css/bootstrap-datepicker.css",
-              "src/assets/css/bootstrap-theme.css",
-              "src/assets/css/bootstrap-theme.css.map",
-              "src/assets/css/bootstrap.min.css",
-              "src/assets/css/bootstrap.min.css.map",
-              "src/assets/css/bootstrap.css",
-              "src/assets/css/bootstrap.css.map",
-              "src/assets/css/daterangepicker.css",
-              "src/assets/css/elegant-icons-style.css",
-              "src/assets/css/owl.carousel.css",
-              "src/assets/css/style-responsive.css",
-              "src/assets/css/style.css",
-              "src/assets/css/widgets.css",
-              "src/assets/css/xcharts.min.css"
+              "src/styles.css"
             ],
-            "scripts": [
-              "./node_modules/jquery/dist/jquery.js",
-              "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -80,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "online:build"
+            "browserTarget": "ash1angular:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "online:build:production"
+              "browserTarget": "ash1angular:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "online:build"
+            "browserTarget": "ash1angular:build"
           }
         },
         "test": {
@@ -128,16 +106,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "online:serve"
+            "devServerTarget": "ash1angular:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "online:serve:production"
+              "devServerTarget": "ash1angular:serve:production"
             }
           }
         }
       }
-    }
-  },
-  "defaultProject": "online"
+    }},
+  "defaultProject": "ash1angular"
 }
